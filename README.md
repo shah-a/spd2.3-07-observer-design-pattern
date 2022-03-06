@@ -5,7 +5,8 @@ Please read and follow along with the steps listed there for more information on
 
 # TODO
 
-## Initial Implementation 
+## Initial Implementation
+
 ```python
     class WeatherData:
     def __init__(self):
@@ -29,14 +30,16 @@ Please read and follow along with the steps listed there for more information on
 ```
 
 ### Check For Understanding
+
 Based on our first implementation `weather_data_1.py`, which of the following apply? (Choose all that apply.)
 
-[ ] A. We are coding to concrete implementations, not interfaces.  
-[ ] B. For every new display we’ll need to alter this code.  
-[ ] C. We have no way to add (or remove) display elements at runtime.  
+[x] A. We are coding to concrete implementations, not interfaces.  
+[x] B. For every new display we’ll need to alter this code.  
+[x] C. We have no way to add (or remove) display elements at runtime.  
 [ ] D. The display elements don’t implement a common interface.  
-[ ] E. We haven’t encapsulated the part that changes.  
+[x] E. We haven’t encapsulated the part that changes.  
 [ ] F. We are violating encapsulation of the WeatherData class.  
 
 ## Final Implementation
+
 The following code [weather_station.py](weather_station.py) is the final implementation of the system. Run it to see how it works. Then implement the TODO sections. Run again and make sure it’s working. At the end submit the code to the Gradescope assignment “The Observer Design Pattern”.

@@ -1,5 +1,7 @@
 """ Initial implemetation of WeatherData
 """
+
+
 class WeatherData:
     def __init__(self):
         pass
